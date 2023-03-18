@@ -128,21 +128,23 @@ function App() {
         </div>
         </div>
       </div>}
-      <div className='md:flex flex-row-reverse gap-[5em] lg:gap-[10em] md:px-8 lg:px-11 md:justify-center md:items-center'>
+      <div className='md:flex flex-row-reverse md:pt-20 
+      gap-[5em] lg:gap-[10em] md:px-8 lg:px-11 md:justify-center md:items-center'>
       <img className='block w-full md:hidden' src={heroMob} alt='background mobile' />
-      <img className='hidden md:flex  max-w-[50%] max-h-[550px]' src={herodesk} alt='background desktop' />
+      <img className='hidden md:flex  max-w-[50%] max-h-[550px] lg:max-h-[600px]' src={herodesk} alt='background desktop' />
       <div>
       <div className='flex flex-col justify-center items-center text-center
       md:text-left md:items-start  mb-14'>
-      <h1 className='text-[2.2rem] md:text-[3rem] min-[1152px]:text-[4rem] md:max-w-[20em]
+      <h1 className='text-[2.2rem] md:text-[3rem] min-[1152px]:text-[4.5rem] md:max-w-[20em]
        text-[#141414] font-bold mt-8 mb-4 md:mb-8  lg:leading-[1em]'>Make <span className='lg:block'>remote work</span></h1>
       <p className='text-[#696969] max-w-[21em] 
       md:max-w-[26em] mb-8 md:mb-12'>Get your team in sync, no matter your location. Streamline processes, 
   create team rituals, and watch productivity soar.</p>
-      <button className='bg-[#141414] font-semibold text-[1.3rem] hover:border-black hover:border-[2px] hover:bg-white hover:text-black
-      md:text-[1rem] md:w-[150px] md:h-[48px] text-white w-[190px] h-[64px] rounded-2xl'>Learn more</button>
+      <button className='bg-[#141414] font-semibold text-[1.3rem]
+       hover:border-black hover:border-[2px] hover:bg-white hover:text-black
+      md:text-[1rem] md:w-[150px] md:h-[48px] md:mb-[4em] text-white w-[190px] h-[64px]  rounded-2xl'>Learn more</button>
      </div>
-     <div className='flex justify-around md:mb-2 mb-[8em]'>
+     <div className='flex justify-around md:mb-0 mb-[8em]'>
       <img className='w-[6em]  h-[1.1em]' src={data} alt='data company logo'/>
       <img className='w-[3.8em]  h-[1.9em]' src={audio} alt='audio logo'/>
       <img className='w-[4em]  h-[1.1em]' src={meet} alt='company logo'/>
